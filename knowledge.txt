@@ -1,0 +1,3 @@
+1. 列表添加元素：用append()方法，示例：lst = [1,2]; lst.append(3) → [1,2,3]
+2. 字典取值：用key，示例：dic = {"name":"张三"}; dic["name"] → "张三"
+3. 循环打印：for i in range(5): print(i) → 打印0-4
