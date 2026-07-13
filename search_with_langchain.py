@@ -3,7 +3,8 @@ import pandas as pd
 from langchain_chroma import Chroma
 from langchain_community.embeddings import DashScopeEmbeddings
 #from langchain.text_splitter import CharacterTextSplitter
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+#from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
 # 配置数据库路径和集合名
