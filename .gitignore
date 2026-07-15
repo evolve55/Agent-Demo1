@@ -42,3 +42,6 @@ data_docs/*
 # 本地数据库
 *.db
 *.sqlite3
+
+#不参与追踪的文件
+no_traced/
