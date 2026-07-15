@@ -7,8 +7,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-
-# 环境变量文件（防止未来泄露）
+# 环境变量文件
 .env
 .env.local
 .env.production
@@ -17,6 +16,29 @@ __pycache__/
 .vscode/
 .idea/
 
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
 # 日志
 *.log
 
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 数据文件
+data_docs/*
+!data_docs/.gitkeep
+
+# 本地数据库
+*.db
+*.sqlite3
